@@ -195,12 +195,12 @@ function loadDelayed() {
 
 async function loadSidekick() {
   if (document.querySelector('aem-sidekick')) {
-    import('./sidekick.js');
+    import('${window.hlx.codeBasePath}/tools/sidekick/sidekick.js');
     return;
   }
 
   document.addEventListener('sidekick-ready', () => {
-    import('./sidekick.js');
+    import('${window.hlx.codeBasePath}/tools/sidekick/sidekick.js');
   });
 }
 
