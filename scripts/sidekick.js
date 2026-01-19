@@ -1,4 +1,4 @@
-import initQuickEdit from '../quick-edit/quick-edit.js';
+import initQuickEdit from '../tools/quick-edit/quick-edit.js';
 
 const getSk = () => document.querySelector('aem-sidekick');
 
