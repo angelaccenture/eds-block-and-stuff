@@ -1,4 +1,3 @@
-import toggleScheduler from '../scheduler/scheduler.js';
 import initQuickEdit from '../quick-edit/quick-edit.js';
 
 const getSk = () => document.querySelector('aem-sidekick');
